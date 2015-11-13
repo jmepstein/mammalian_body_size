@@ -1,5 +1,9 @@
 # R Assignment 8 (Final Assignment)
 
+#Installing and loading packages:
+install.packages("dplyr")
+library(dplyr)
+
 #Importing mammal body size data:
 mammal_sizes <- read.csv("MOMv3.3.txt", header=F, sep = "\t", na.strings = "-999",
                          stringsAsFactors = F)
